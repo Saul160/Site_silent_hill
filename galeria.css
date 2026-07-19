@@ -1,195 +1,108 @@
-body{
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-background:black;
+<head>
 
-color:white;
+<meta charset="UTF-8">
 
-margin:0;
+<title>Galeria de Silent Hill</title>
 
-font-family:Verdana, Geneva, Tahoma, sans-serif;
+<link rel="stylesheet" href="guia.css">
 
-}
+</head>
 
-header{
+<body>
 
-background:#111;
+<header>
 
-padding:20px;
+<h1>Galeria de Silent Hill</h1>
 
-border-bottom:2px solid darkred;
+<nav>
 
-}
+<ul class="menu">
 
-h1{
+<li><a href="Introducao.html">Início</a></li>
 
-text-align:center;
+<li><a href="index.html">Informações</a></li>
 
-color:#c30000;
+<li><a href="guia.html">Guia</a></li>
 
-}
+<li><a href="equipe.html">Equipe</a></li>
 
-h2{
+<li><a href="curiosidades.html">Curiosidades</a></li>
 
-color:#d33;
+</ul>
 
-}
+</nav>
 
+</header>
 
-.menu{
+<main>
 
-display:flex;
+<section class="galeria">
 
-justify-content:center;
+<div class="foto">
 
-list-style:none;
+<img src="pyramid-head.jpg" alt="Pyramid Head">
 
-padding:0;
+<p>Pyramid Head</p>
 
-}
+</div>
 
-.menu li{
+<div class="foto">
 
-margin:10px;
+<img src="nurse.jpg" alt="Nurse">
 
-}
+<p>Bubble Head Nurse</p>
 
-.menu li a{
+</div>
 
-color:white;
+<div class="foto">
 
-text-decoration:none;
+<img src="silent-town.jpg" alt="Cidade">
 
-padding:10px;
+<p>A névoa de Silent Hill</p>
 
-border:1px solid gray;
+</div>
 
-}
+<div class="foto">
 
-.menu li a:hover{
+<img src="otherworld.jpg" alt="Otherworld">
 
-background:white;
+<p>Otherworld</p>
 
-color:red;
+</div>
 
-}
+<div class="foto">
 
+<img src="radio.jfif" alt="Rádio">
 
-#guia{
+<p>O rádio avisa quando monstros estão próximos.</p>
 
-padding:30px;
+</div>
 
-margin:20px;
+<div class="foto">
 
-border:2px solid gray;
+<img src="school.jfif" alt="Escola">
 
-}
+<p>Midwich Elementary School</p>
 
+</div>
 
-.criaturas{
+</section>
 
-margin:20px;
+</main>
 
-padding:20px;
+<footer>
 
-border:2px solid #555;
+<p>
 
-}
+Imagens utilizadas apenas para fins educativos.
 
-.curiosidades{
+</p>
 
-margin:20px;
+</footer>
 
-padding:20px;
+</body>
 
-border:2px solid #555;
-
-}
-
-
-.galeria{
-
-display:flex;
-
-flex-wrap:wrap;
-
-justify-content:center;
-
-gap:20px;
-
-padding:20px;
-
-}
-
-.foto{
-
-width:300px;
-
-border:2px solid gray;
-
-padding:10px;
-
-text-align:center;
-
-background:#181818;
-
-}
-
-.foto img{
-
-width:100%;
-
-height:180px;
-
-object-fit:cover;
-
-}
-
-
-img[alt]{
-
-border:2px solid darkred;
-
-}
-
-
-.galeria p{
-
-color:#ddd;
-
-}
-
-/* Filho direto */
-
-.criaturas > ul{
-
-color:#ffcccc;
-
-}
-
-
-h2 + p{
-
-font-style:italic;
-
-}
-
-
-h2 ~ ol{
-
-color:#dddddd;
-
-}
-
-footer{
-
-padding:20px;
-
-margin-top:30px;
-
-text-align:center;
-
-background:#111;
-
-border-top:2px solid darkred;
-
-}
+</html>
